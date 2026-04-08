@@ -43,6 +43,7 @@ Handling missing and infinite values
 Feature selection and extraction
 Label encoding
 Train-test splitting
+
 6. Training Procedure
 
 The training process consists of the following steps:
@@ -52,6 +53,7 @@ Extract relevant statistical features from traffic flows
 Split data into training and testing sets
 Train the Random Forest classifier
 Evaluate model performance using multiple metrics
+
 7. Evaluation Metrics
 
 The model is evaluated using standard classification metrics:
@@ -62,27 +64,3 @@ False Positive Rate (FPR): 0.0487
 False Negative Rate (FNR): 0.0708
 
 These results indicate strong detection capability with relatively low false alarm rates.
-
-8. Advantages
-Does not require decryption of network traffic
-Robust against noise and feature variability
-Efficient training and inference
-Suitable as a baseline for comparison with sequence-based models such as LSTM and GRU
-9. Limitations
-Limited ability to capture temporal dependencies in network traffic
-Performance depends heavily on feature engineering quality
-10. Project Structure
-/data              # Dataset (excluded)
-/models            # Saved trained models
-/src               # Source code
-/notebooks         # Colab notebooks
-README.md
-requirements.txt
-11. Future Work
-Integration with deep learning models (hybrid architectures)
-Real-time deployment in intrusion detection systems
-Feature importance analysis and interpretability
-Optimization for large-scale network environments
-12. License
-
-This project is intended for research and educational purposes.
