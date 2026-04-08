@@ -10,6 +10,7 @@ The primary objectives of this work are:
 To detect cyber attacks in encrypted network traffic
 To achieve high detection accuracy with low false positive rates
 To establish a strong baseline model for comparison with deep learning approaches
+
 3. Model Description
 
 The model is built using the Random Forest classifier, an ensemble learning technique that constructs multiple decision trees and aggregates their outputs to improve generalization and robustness.
@@ -21,6 +22,7 @@ Minimum samples per leaf: 3
 Class weight: balanced (1:1)
 Number of parallel jobs: -1 (utilizing all CPU cores)
 Random state: 42
+
 4. Dataset
 
 The model is trained and evaluated on the CIC-IDS2018 dataset, a widely used benchmark for intrusion detection research.
@@ -35,6 +37,7 @@ Directional traffic features
 Labels
 0: Normal traffic
 1: Attack traffic
+
 5. Data Preprocessing
 
 The preprocessing pipeline includes:
